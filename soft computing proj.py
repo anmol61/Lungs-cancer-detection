@@ -12,6 +12,7 @@ import pandas as pd
 
 
 df=pd.read_csv('lungs.csv')
+df.drop(["Name","Surname"],inplace=True,axis=1)
 df
 
 
